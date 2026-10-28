@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NORTHSTAR — Signals</title>
+
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:#070a12;
+  color:#edf4ff;
+  font-family:Arial,sans-serif;
+  background-image:radial-gradient(ellipse at 75% 10%,#15274b,transparent 40%);
+}
+nav{display:flex;justify-content:space-between;align-items:center;padding:25px 8%}
+.logo{font-weight:bold;letter-spacing:4px}
+.logo span{color:#75f0e4}
+nav a{color:#8d9ab5;text-decoration:none;margin-left:20px;transition:.3s}
+nav a:hover{color:white}
+main{padding:70px 8%;max-width:1300px;margin:auto}
+h1{font-size:clamp(45px,8vw,90px);line-height:.95;letter-spacing:-5px}
+h1 span{color:transparent;-webkit-text-stroke:1px #8eb9ff}
+p{color:#8d9ab5;line-height:1.8}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:40px}
+.card{
+  padding:30px;
+  border:1px solid #26344d;
+  border-radius:20px;
+  background:#11182ab8;
+  transition:.3s;
+}
+.card:hover{transform:translateY(-7px);border-color:#75f0e4}
+.card small{color:#75f0e4;letter-spacing:2px}
+.card h3{margin-top:25px}
+.card p{font-size:14px}
+.btn{
+  display:inline-block;
+  padding:14px 22px;
+  border-radius:30px;
+  border:1px solid #26344d;
+  color:white;
+  text-decoration:none;
+  transition:.3s;
+}
+.btn:hover{transform:translateY(-4px);border-color:#75f0e4}
+.primary{background:linear-gradient(110deg,#75f0e4,#6ea8ff);color:#07101d;font-weight:bold}
+.panel{margin-top:50px;padding:30px;border:1px solid #26344d;border-radius:20px;background:#11182ab8}
+.quote{font-size:clamp(22px,4vw,35px);color:white}
+footer{padding:25px 8%;color:#62718b;font-size:11px}
+@media(max-width:700px){
+  nav{padding:20px}
+  nav a{margin-left:8px;font-size:12px}
+  main{padding:35px 20px}
+  .cards{grid-template-columns:1fr}
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <div class="logo">NORTH<span>STAR</span></div>
+  <div>
+    <a href="index.html">Home</a>
+    <a href="signals.html">Signals</a>
+    <a href="manifesto.html">Manifesto</a>
+    <a href="about.html">About</a>
+  </div>
+</nav>
+
+<main>
+
+<p>✦ THREE SIGNALS</p>
+
+<h1>MAKE IT<br><span>MEAN SOMETHING.</span></h1>
+
+<p>
+  Small steps. Clear direction.
+  Pick what matters, then show up for it.
+</p>
+
+<div class="cards">
+
+  <div class="card">
+    <small>01 / FOCUS</small>
+    <h3>Choose your signal.</h3>
+    <p>
+      Not every notification deserves your attention.
+      Protect the things you actually care about.
+    </p>
+  </div>
+
+  <div class="card">
+    <small>02 / BUILD</small>
+    <h3>Become through action.</h3>
+    <p>
+      Ideas are a beginning.
+      Practice and patience turn them into something real.
+    </p>
+  </div>
+
+  <div class="card">
+    <small>03 / REMEMBER</small>
+    <h3>Leave a trace.</h3>
+    <p>
+      Make things. Help people.
+      Leave the world a little better than you found it.
+    </p>
+  </div>
+
+</div>
+
+<div class="panel">
+  <p class="quote">
+    "You don't need the whole map. Just the next right move."
+  </p>
+
+  <a href="manifesto.html" class="btn primary">
+    Next: Manifesto →
+  </a>
+</div>
+
+</main>
+
+<footer>© NORTHSTAR — YOUR DIRECTION, YOURS.</footer>
+
+</body>
+</html>
